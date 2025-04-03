@@ -1,6 +1,5 @@
 
 def get_user_numbers():
-    
     user_num = []
 
     while True:
@@ -8,11 +7,13 @@ def get_user_numbers():
 
         if user_input == "":
             break
-       
+
         num = int(user_input)
         user_num.append(num)
     return user_num
         
+
+
 
 def count_nums(num_lst):
 
@@ -38,5 +39,6 @@ def main():
     user_numbers = get_user_numbers()
     count = count_nums(user_numbers)
     print_counts(count)
+    
 if __name__ == "__main__":
     main()

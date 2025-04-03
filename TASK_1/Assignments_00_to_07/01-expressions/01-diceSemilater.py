@@ -7,7 +7,6 @@ to show how variable scope works.
 """
 import random
 
-
 # Number of sides on each die to roll
 NUM_SLIDES = 6 
 
@@ -30,4 +29,5 @@ def main():
     
 if __name__ == "__main__":
     main()
+ 
  
